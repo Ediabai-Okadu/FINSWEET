@@ -1,283 +1,345 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Finsweet</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style.css" />
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
-    <script src="https://kit.fontawesome.com/d7289f4a94.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/d7289f4a94.js"
+      crossorigin="anonymous"
+    ></script>
     <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;800&display=swap" rel="stylesheet">  -->
-</head>
-<body>
-    <header>
-        
-            <div class="logo">
-                <img src="./images/Logo.png" alt="Logo" width="50%">
+  </head>
+  <body>
+    <header id="header">
+      <!-- <div class="container"> -->
+        <div class="logo">
+          <img src="./images/Logo.png" alt="Logo" />
+        </div>
+        <nav>
+          <ul>
+            <li>Home</li>
+            <li>About Us</li>
+            <li>Services</li>
+            <li>Blog</li>
+            <li>Contact</li>
+          </ul>
+
+          <div class="assistance">
+            <img src="./images/Assistance Icon.png" alt="Icon" />
+            <div class="nav-text">
+              <p class="road-assist">Road Assistance</p>
+              <p class="tel">+234 805 566 7788</p>
             </div>
-        <nav>           
-            
-                  <ul>
-                        <li>Home</li>
-                        <li>About Us</li>
-                        <li>Services</li>
-                        <li>Blog</li>
-                        <li>Contact</li>
-                   </ul>
-                
-                <div class="assistance">
-                    <img src="./images/Assistance Icon.png" alt="Icon" width="33px" height="33px">
-                    <div class="nav-text">
-                        <p class="road-assist">Road Assistance</p>
-                        <p class="tel">+234 805 566 7788</p>
-                    </div>
-                </div>
-           
+          </div>
         </nav>
+      </div>
     </header>
-    <main class="parent-flex  ">
-        <div class="container">
-
-            <div class="left-text first-part">
-                <h1 id="main-text">Get your vehicle service done online at one place</h1>
-                <button class="btn">Book a service</button>
-                <div class="time-icon">
-                    <img src="./images/Icon.png" alt="clock-icon" width="25px" height="25px">
-                    <div class="msg">
-                        <p class="open">We are open</p> 
-                        <p>Monday to Friday 9:00 AM to 10:00 AM</p>
-                    </div>
-                </div>
-    
+    <!-- main -->
+    <main class="parent-flex">
+      <div class="container">
+        <div class="left-text first-part">
+          <h1 id="main-text">
+            Get your vehicle service done online at one place
+          </h1>
+          <button class="btn">Book a service</button>
+          <div class="time-icon">
+            <img
+              src="./images/Icon.png"
+              alt="clock-icon"
+              width="25px"
+              height="25px"
+            />
+            <div class="msg">
+              <p class="open">We are open</p>
+              <p class="time">Monday to Friday 9:00 AM to 10:00 AM</p>
             </div>
-            <div class="right-image second-part">
-                
-                <div class="services">
-                    <div class="inside">
-                        <p class="circle">24  <span>hr</span> </p>                      
-                        <p>Quick service</p>
-                    </div>
-                </div>
-                
-                <div class="rating">
-                    <div class="inside">
-
-                        <div class="rating-num">
-                            <p id="num">4.5/5</p>
-                            <p id="rate">Rating</p>
-    
-                        </div>
-                        <div class="star">
-                            <i class="fa-solid fa-star checked"></i>                          
-                            <i class="fa-solid fa-star checked"></i>
-                            <i class="fa-solid fa-star checked"></i>
-                            <i class="fa-solid fa-star checked"></i>
-                            <i class="fa-solid fa-star-half-stroke checked"></i>
-    
-                        </div>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
+        <div class="right-image second-part">
+          <div class="services">
+            <div class="inside">
+              <p class="circle">24 <span>hr</span></p>
+              <p>Quick service</p>
+            </div>
+          </div>
+
+          <div class="rating">
+            <div class="inside">
+              <div class="rating-num">
+                <p id="num">4.5/5</p>
+                <p id="rate">Rating</p>
+              </div>
+              <div class="star">
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star-half-stroke checked"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
-    <section id="car-service" class="parent-flex"> 
-        <div class="container">
-            <div class="first-part">
-                <h2>We are taking car servicing seriously</h2>
-                <div class="convenience">
-                    <div class="the-convenience">
-                        <i class="fa-solid fa-gear fa-lg circle-icon"></i>
-                    <h4>Convenient service</h4>
-                    </div>
-                    <p>Through True Rich Attended does no end <br> it his mother since real had half every him.</p>
-                    <div class="the-convenience">
-                        <i class="fa-solid fa-image-portrait fa-lg circle-icon"></i>
-
-                        <h4>Expert mechanics</h4>
-                    </div>
-                    <p>Through True Rich Attended does no end <br> it his mother since real had half every him.</p>
-
-
-                    <div class="the-convenience">
-                        <i class="fa-solid fa-circle-dollar-to-slot fa-lg circle-icon"></i>
-                        <h4>Transparent pricing</h4>
-
-                    </div>
-                    <p>Through True Rich Attended does no end <br> it his mother since real had half every him.</p>
-
-                    <p> Know more about us &#8594;</p>
-
-
-                </div>
-
+    <section id="car-service" class="parent-flex">
+      <div class="container">
+        <div class="first-part">
+          <h2>We are taking car servicing seriously</h2>
+          <div class="convenience">
+            <div class="the-convenience">
+              <i class="fa-solid fa-gear fa-lg circle-icon"></i>
+              <h4>Convenient service</h4>
             </div>
-           
-            <div class="quote second-part">
-                <h3>Get a quote for the car service</h3>
-                <input type="text" placeholder="Enter your location" width="100px">
-                <input type="text" placeholder="Enter your location">
-                <input type="text" placeholder="Enter your location">
-                <input type="text" placeholder="Your phone number">
-                <button class="btn">Get your quote</button>
-            </div>
+            <p>
+              Through True Rich Attended does no end <br />
+              it his mother since real had half every him.
+            </p>
+            <div class="the-convenience">
+              <i class="fa-solid fa-image-portrait fa-lg circle-icon"></i>
 
+              <h4>Expert mechanics</h4>
+            </div>
+            <p>
+              Through True Rich Attended does no end <br />
+              it his mother since real had half every him.
+            </p>
+
+            <div class="the-convenience">
+              <i
+                class="fa-solid fa-circle-dollar-to-slot fa-lg circle-icon"
+              ></i>
+              <h4>Transparent pricing</h4>
+            </div>
+            <p>
+              Through True Rich Attended does no end <br />
+              it his mother since real had half every him.
+            </p>
+          </div>
+          <p id="know-more">Know more about us &#8594;</p>
         </div>
-        
+
+        <div class="quote second-part">
+          <h3>
+            Get a quote for the car <br />
+            service
+          </h3>
+          <input type="text" placeholder="Enter your location" width="100px" />
+          <input type="text" placeholder="Enter your location" />
+          <input type="text" placeholder="Enter your location" />
+          <input type="text" placeholder="Your phone number" />
+          <button class="btn">Get your quote</button>
+        </div>
+      </div>
     </section>
-    
-    <section id="get-a-quote" class="parent-flex">
-        <div class="container">
-            <div class="left-text">
-                <h2>We follow a clear process to help you out. </h2>
-                <p>Through True Rich Attended does no end it his mother since real had half every him case in packages enquire </p>
-                
-                <button class="btn" >Learn more</button> 
-            </div>
-            <div class="rightlist">
-                <div class="num-one ">
-                    <p  class="purple-circle">01</p>
-                    <div class="content">
-                        <h3>Get a Quote</h3>
-                    <p id="border">Through True Rich Attended does no <br> end it his mother since real had half <br> every.</p>
 
-                    </div>
-                   
-                </div>
-                <div class="num-one">
-                    <p class="purple-circle">02</p>
-                    <div class="content">
-                        <h3>Book an Appointment</h3>
-                    <p id="border">Through True Rich Attended does no <br>  end it his mother since real had half <br> every.</p>
+    <section id="clear-process" class="parent-flex">
+      <div class="container">
+        <div class="left-text first-part">
+          <h2>
+            We follow a clear <br />
+            process to help you <br />
+            out.
+          </h2>
+          <p>
+            Through True Rich Attended does no end it his mother since real had
+            half every him case in packages enquire
+          </p>
 
-                    </div>
-                   
-                </div>
-                <div class="num-one">
-                    <p class="purple-circle">03</p>
-                    <div class="content">
-                        <h3>Get your Service Done </h3>
-                    <p id="border">Through True Rich Attended does no <br> end it his mother since real had half <br> every.</p>
-
-                    </div>
-                   
-                </div>
-
-            </div>
-        
-            
+          <button class="btn">Learn more</button>
         </div>
+        <div class="rightlist">
+          <div class="num-one">
+            <p class="purple-circle">01</p>
 
+            <div class="content">
+              <h3>Get a Quote</h3>
+
+              <p id="border">
+                Through True Rich Attended does no <br />
+                end it his mother since real had half <br />
+                every.
+              </p>
+            </div>
+          </div>
+          <div class="num-one">
+            <p class="purple-circle">02</p>
+            <div class="content">
+              <h3>Book an Appointment</h3>
+              <p id="border">
+                Through True Rich Attended does no <br />
+                end it his mother since real had half <br />
+                every.
+              </p>
+            </div>
+          </div>
+          <div class="num-one">
+            <p class="purple-circle">03</p>
+            <div class="content">
+              <h3>Get your Service Done</h3>
+              <p id="border">
+                Through True Rich Attended does no <br />
+                end it his mother since real had half <br />
+                every.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
     <section id="what-we-offer" class="parent-flex">
-        <div class="container">
-            <div class="what-we-offer">
-                <p>What we Offer</p>
-                <h2>We offer full service auto repair & maintenance</h2>
-                <div class="what-we-offer-cards">
-                    <div class="card">
-                        <i class="fa-solid fa-car fa-xl" ></i>
-                        <p class="content-card">Diagnostics </p>
-
-                    </div>
-                    <div class="card">
-                        <i class="fa-solid fa-gear fa-xl"></i>
-                        <p class="content-card">Engine Repair</p>
-
-                    </div>
-                    <div id="wheel-repair" class="card">
-                        <i class="fa-solid fa-circle-radiation fa-xl"></i>
-                        <p class="content-card">Wheel Repair</p>
-
-                    </div>
-                    <div class="card">
-                        <i class="fa-solid fa-oil-can fa-xl"></i>
-
-                        <p class="content-card">Oil Filter</p>
-
-                    </div>
-                    <div class="card">
-                        <i class="fa-solid fa-car fa-xl"></i>
-                         <p class="content-card">Body Work</p>
-                    </div>
-                    <div class="card">
-                        <i class="fa-solid fa-car-battery fa-xl"></i>
-                        <p class="content-card">Batteries</p>
-                    </div>
-                    <div class="card">
-                        <i class="fa-solid fa-shield-virus fa-xl"></i>
-                        <p class="content-card">Insurance Claim</p>
-                    </div>
-                    <div class="card">
-
-                         <i class="fa-solid fa-life-ring fa-xl"></i>
-
-                        <p class="content-card">Custom Service</p>
-                    </div>
-                    
-                    
-                </div>
-                <p class="learn-services">Learn about services &#8594; </p>
-    
+      <div class="container">
+        <div class="what-we-offer">
+          <p>What we Offer</p>
+          <h2>We offer full service auto repair & maintenance</h2>
+          <div class="what-we-offer-cards">
+            <div class="card">
+              <i class="fa-solid fa-car fa-xl"></i>
+              <p class="content-card">Diagnostics</p>
             </div>
+            <div class="card">
+              <i class="fa-solid fa-gear fa-xl"></i>
+              <p class="content-card">Engine Repair</p>
+            </div>
+            <div id="wheel-repair" class="card">
+              <i class="fa-solid fa-circle-radiation fa-xl"></i>
+              <p class="content-card">Wheel Repair</p>
+            </div>
+            <div class="card">
+              <i class="fa-solid fa-oil-can fa-xl"></i>
 
+              <p class="content-card">Oil Filter</p>
+            </div>
+            <div class="card">
+              <i class="fa-solid fa-car fa-xl"></i>
+              <p class="content-card">Body Work</p>
+            </div>
+            <div class="card">
+              <i class="fa-solid fa-car-battery fa-xl"></i>
+              <p class="content-card">Batteries</p>
+            </div>
+            <div class="card">
+              <i class="fa-solid fa-shield-virus fa-xl"></i>
+              <p class="content-card">Insurance Claim</p>
+            </div>
+            <div class="card">
+              <i class="fa-solid fa-life-ring fa-xl"></i>
+
+              <p class="content-card">Custom Service</p>
+            </div>
+          </div>
+          <p class="learn-services">Learn about services &#8594;</p>
+        </div>
+      </div>
+    </section>
+    <section id="get-in-touch">
+      <div class="service-query">
+        <div class="first-row">
+          <div class="left-car">
+            <div class="left-car-card">
+              <div>
+                <h3>Get in touch with us for your service related query</h3>
+              </div>
+              <button class="btn-2">Contact Us</button>
+            </div>
+          </div>
+          <div class="right-car"></div>
+        </div>
+        <div class="second-row parent-flex">
+          <div class="flex-container">
+            <div class="flex-content">
+              <h2>20+</h2>
+              <p>Professional</p>
+            </div>
+            <div class="flex-content">
+              <h2>10+</h2>
+              <p>Years Experience</p>
+            </div>
+            <div class="flex-content">
+              <h2>12K+</h2>
+              <p>Service Closed</p>
+            </div>
+            <div class="flex-content">
+              <h2>100%</h2>
+              <p>Customer Satisfaction</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="brand-we-serve">
+      <div class="brands">
+        <h3>Brands we Serve</h3>
+        <div class="flex-container">
+          <img src="./images/logo-8 1.png" alt="" />
+          <img src="./images/logo-7 1.png" alt="" />
+          <img src="./images/logo-6.png" alt="" />
+          <img src="./images/logo-3.png" alt="" />
+          <img src="./images/logo-1 1.png" alt="" />
+          <img src="./images/logo-8 1.png" alt="" />
+          <img src="./images/logo-7 1.png" alt="" />
+          <img src="./images/logo-6.png" alt="" />
+          <img src="./images/logo-3.png" alt="" />
+          <img src="./images/logo-1 1.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <section id="customers-service" class="">
+        <div class="customers-service-content">
+          <h3>Our customers say the nicest things</h3>
+          <h3>about our service</h3>
+        </div>
+        <div class="parent-flex">
+          <div class="container">
+            <!-- <div class="cards"> -->
+              <div class="card-left">
+                <div class="title">
+                  <img
+                    src="./images/card-left.avif"
+                    alt=""
+                    width="50px"
+                    height="50px"
+                  />
+                  <div class="title-content ">
+                    <p  class="title-name">Jonathan Vallem</p>
+                    <p class="faded-title">New york</p>
+                  </div>
+                </div>
+                <p>
+                  I have got my car repaired at Finsweet many times before, they
+                  are good at what they do. Not only did they repair my car in a
+                  short comprehensive look on all the working
+                </p>
+              </div>
+              <div class="card-right">
+                <div class="title">
+                  <img
+                    src="./images/card-left.avif"
+                    alt=""
+                    width="50px"
+                    height="50px"
+                  />
+                  <div class="title-content ">
+                    <p  class="title-name">Smith Johnson</p>
+                    <p class="faded-title">New york</p>
+                  </div>
+                </div>
+                <p>
+                  I have got my car repaired at Finsweet many times before, they
+                  are good at what they do. Not only did they repair my car in a
+                  short comprehensive look on all the working
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       
-
     </section>
-    <section>
-        <div id="get-in-touch">
-            <div class="first-row">
-                <div class="left-car">
-                    <div class="left-car-card">
-                        <div>
-
-                            <h3> Get in touch with us for your service related query </h3>
-                        </div>
-                        <button class="btn-2">Contact Us</button>                      
-
-                    </div>
-
-                </div>
-                <div class="right-car"></div>
-            </div>
-            <div class="second-row parent-flex" >
-                <div class="container1">
-                    <div class="one">
-                        <h2>20+</h2>
-                        <p>Professional</p>
-                    </div>
-                    <div class="two">
-                        <h2>10+</h2>
-                        <p>Years Experience</p>
-                    </div>
-                    <div class="three">
-                        <h2>12K+</h2> 
-                        <p>Service Closed</p>
-                        
-                    </div>
-                    <div class="four">
-                        <h2>100%</h2> 
-                        <p>Customer Satisfaction</p>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </section>
-    
-    <section>
-
-    </section>
-    <section>
-        
-    </section>
-
-
-
-    
-</body>
+  </body>
 </html>
